@@ -77,12 +77,17 @@
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <div class="language_switcher">
-                  <button id="engBtn" class="switch-btn act" onclick="switchLanguage('eng')">
-                    ENG
-                  </button>
-                  <button id="ruBtn" class="switch-btn" onclick="switchLanguage('ru')">RU</button>
-                </div>
+               <div class="dropdown">
+                            <button type="button" class="btn btn-outline btn-default dropdown-toggle" id="lang_list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Your language</button>
+                            <ul class="dropdown-menu dropdown-footer pull-right" aria-labelledby="dropdownMenu1">
+                                <li aria-checked="true" class="active" role="menuitem">
+                                    <a href="#">English</a>
+                                </li>
+                                <li aria-checked="false" role="menuitem">
+                                    <a href="#">Русский</a>
+                                </li>
+                            </ul>
+                        </div>
               </li>
               <li>
                 <div class="dropdown">
@@ -444,7 +449,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 home-block top-border pt20 b60">
           <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 p0">
             <p class="t5">
-              <img src="/assets/imgs/sigle-hm.png" class="footer-ico" alt="" />© chef-contact.com
+                © chef-contact.com
             </p>
           </div>
 
@@ -474,7 +479,7 @@
     ></script>
 
     <script src="/bundles/fosjsrouting/js/router.js"></script>
-    <script src="/js/routing?callback=fos.Router.setData"></script>
+    <script src="/js/routing@callback=fos.Router.setData"></script>
 
     <script type="text/javascript" src="/assets/js/homemeal.js"></script>
     <script type="text/javascript" src="/assets/js/star-rating.js"></script>

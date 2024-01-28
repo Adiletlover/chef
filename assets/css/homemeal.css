@@ -20,8 +20,6 @@
   width: 100%; /* Could be more or less, depending on screen size */
 }
 
-
-
 /* The Close Button */
 .close {
   color: #484848;
@@ -202,7 +200,6 @@ footer,
 }
 
 select {
-  border-radius: 20px !important;
 }
 
 .hm-social-footer {
@@ -335,8 +332,6 @@ select {
   height: auto;
 }
 
-
-
 .dropdown-menu > li > a {
   min-height: 40px;
   min-width: 220px;
@@ -420,7 +415,7 @@ select {
   margin-bottom: 0;
 }
 
-.btn{
+.btn {
   border-radius: 20px;
 }
 
@@ -494,8 +489,6 @@ select {
 .navbar-right > li > div > a > button:hover {
   background-color: #f6f6f6;
   border-radius: 20px;
-
-
 }
 
 .navbar-right > li > div > button,
@@ -512,9 +505,14 @@ select {
   border-radius: 20px;
   color: #484848;
   background-color: #f6f6f6 !important;
-
 }
-.btn-outline {border:solid 2px #c4c4c4;background-color: transparent;border-radius: 20px;margin:15px 20px 13px 20px;height:40px !important;}
+.btn-outline {
+  border: solid 2px #c4c4c4;
+  background-color: transparent;
+  border-radius: 20px;
+  margin: 15px 20px 13px 20px;
+  height: 40px !important;
+}
 
 .btn-outline {
   border: solid 2px #c4c4c4;
@@ -529,7 +527,6 @@ select {
   background-color: transparent;
   height: 46px !important;
   padding: 17px auto 17px auto;
-
 }
 
 .etapes-link {
@@ -628,7 +625,6 @@ select {
 .has-feedback-left input.form-control {
   padding-left: 60px; /* @input-height-base; */
   padding-right: 12px; /* @padding-base-horizontal */
-  
 }
 
 .has-feedback-left .form-control-feedback {
@@ -658,7 +654,6 @@ select {
   height: 70px !important;
   min-width: 100%;
   border-radius: 20px;
-
 }
 
 .has-feedback-right i {
@@ -784,10 +779,73 @@ select {
   color: #fff;
 }
 
+.location {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.form-border {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+/* Style for navigation */
+.custom-dropwdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-dropwdown li {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+}
+
+.custom-dropwdown a {
+  display: block;
+  padding: 10px 20px;
+  width: 100%;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid black;
+}
+
+/* Style for dropdowns */
+ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff00;
+  width: fit-content;
+  padding: 0;
+}
+
+.custom-dropwdown li:hover > ul {
+  display: block;
+  z-index: 9;
+  left: 20px;
+}
+
+.option {
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+@media (max-width: 767px) {
+  .location,
+  .option {
+    border-radius: 20px !important;
+  }
+}
+
 .form-group > input,
 .form-group > select {
   width: 100% !important;
-  border-radius: 20px;
   height: 46px;
 }
 
@@ -811,7 +869,6 @@ padding-left:30px !important;
 
 .home-box-border-space {
   border: solid 10px #f6f6f6;
-
 }
 
 .home-box-border-space2 {
@@ -905,7 +962,6 @@ padding-left:30px !important;
   margin-top: 20px;
   padding-top: 20px;
   border-radius: 20px;
-
 }
 
 .footer-social > a {
@@ -1031,7 +1087,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 360px;
   border-radius: 20px;
-
 }
 
 .home-slide1-img2 {
@@ -1055,7 +1110,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-faq-starthm {
@@ -1063,7 +1117,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-faq-guest {
@@ -1071,7 +1124,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-faq-host-account {
@@ -1079,7 +1131,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-faq-host {
@@ -1087,7 +1138,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-faq {
@@ -1095,7 +1145,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-usermeal {
@@ -1104,7 +1153,6 @@ padding-left:30px !important;
   min-height: 100vh;
   display: block;
   border-radius: 20px;
-
 }
 .bg-bookinglist {
   background: url(../images/home/bg-bookinglist.jpg) center center;
@@ -1112,7 +1160,6 @@ padding-left:30px !important;
   min-height: 100vh;
   display: block;
   border-radius: 20px;
-
 }
 .bg-menu {
   background: url(../images/home/bg-menu.jpg) center center;
@@ -1120,7 +1167,6 @@ padding-left:30px !important;
   min-height: 100vh;
   display: block;
   border-radius: 20px;
-
 }
 
 .bg-reset {
@@ -1129,7 +1175,6 @@ padding-left:30px !important;
   min-height: 100vh;
   display: block;
   border-radius: 20px;
-
 }
 
 .bg-userinvited {
@@ -1138,7 +1183,6 @@ padding-left:30px !important;
   min-height: 100vh;
   display: block;
   border-radius: 20px;
-
 }
 
 .bg-userinvitedlist {
@@ -1147,7 +1191,6 @@ padding-left:30px !important;
   min-height: 100vh;
   display: block;
   border-radius: 20px;
-
 }
 
 .bg-hospitality {
@@ -1155,7 +1198,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-allerg {
@@ -1163,7 +1205,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-contact {
@@ -1171,7 +1212,6 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-safe {
@@ -1179,28 +1219,24 @@ padding-left:30px !important;
   background-size: cover;
   min-height: 499px;
   border-radius: 20px;
-
 }
 
 .bg-brunch {
   background: url(../images/home/img-brunch.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-dejeuner {
   background: url(../images/home/img-dejeuner.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-diner {
   background: url(../images/home/img-diner.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-aperitif {
@@ -1213,28 +1249,24 @@ padding-left:30px !important;
   background: url(../images/home/img-picnic.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-break {
   background: url(../images/home/img-break.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-homecooking {
   background: url(../images/home/img-homecooking.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-montana {
   background: url(../images/home/img-montana.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-travel-other {
@@ -1247,7 +1279,6 @@ padding-left:30px !important;
   background: url(../images/home/img-private-meals.jpg) center center;
   background-size: cover;
   border-radius: 20px;
-
 }
 
 .bg-cooking-classes {
@@ -1770,7 +1801,6 @@ padding-left:30px !important;
 .search-input > select {
   min-height: 50px;
   border-radius: 20px;
-
 }
 
 .search-input-search > div {
@@ -2021,7 +2051,6 @@ h5,
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
-
 }
 
 .img-renouvel {
@@ -2034,7 +2063,6 @@ h5,
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   border-radius: 20px;
-
 }
 
 .upload-box {
